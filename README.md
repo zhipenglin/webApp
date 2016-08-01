@@ -8,6 +8,6 @@
 
 4.执行npm run dev进入开发模式，文件名中不添加md5，修改文件后会自动编译，代码不压缩，生成内嵌的source-map
 
-执行npm run build进行发布，文件名中添加md5,代码压缩，去除内嵌的source-map
+执行npm run build进行发布，文件名中添加md5,代码压缩，去除内嵌的source-map,生成manifest.json的文件映射
 
 5.样式采用less开发，javascript采用ECMASCRIPT 2015的stage-3开发
