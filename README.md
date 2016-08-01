@@ -3,6 +3,7 @@
 1.首先执行npm i，安装项目依赖
 
 2.配置build/var里的 VISION_WIDTH参数，使其大小等于设计稿大小，本项目使用了px2rem，会根据配置的参数，将原始样式中的px按照规则替换成rem实现自适应
+原样式
 ```
 .selector {
   width: 150px;
@@ -11,11 +12,7 @@
   border: 1px solid #ddd; /*no*/
 }
 ```
-
-#### After processing:
-
-Rem version: `test.debug.css`
-
+插件替换后样式
 ```
 .selector {
   width: 2rem;
